@@ -1,0 +1,10 @@
+.song-container {
+    grid-template-columns: 2;
+    display: grid;
+    grid-template-rows: 10;
+    
+
+
+
+    
+}

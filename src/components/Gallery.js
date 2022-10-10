@@ -1,4 +1,6 @@
 import GalleryItem from './GalleryItem'
+import React from 'react';
+
 
 function Gallery(props){
 

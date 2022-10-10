@@ -1,5 +1,8 @@
 import { useState } from 'react' 
 import { Link } from 'react-router-dom'
+import React from 'react';
+import "./galleryitem.css"
+
 
 function GalleryItem(props){
     let [view, setView] = useState(false)
@@ -33,7 +36,7 @@ function GalleryItem(props){
 
     const detailView = () => {
         return (
-            <div style={detailStyle}>
+            <div className="song-container" style={detailStyle}>
                 <h2>{props.item.trackName}</h2>
                 <h3>
                     <Link to={`/artist/${props.item.artistId}`}>
